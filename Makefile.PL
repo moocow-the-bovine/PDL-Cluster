@@ -18,7 +18,6 @@ $hash{PREREQ_PM} = {
 $hash{CONFIGURE_REQUIRES} = {
 			     'PDL'=>0,
 			     'ExtUtils::MakeMaker'=>0,
-			     'Data::Dumper'=>0,
 			    };
 push(@{$hash{LIBS}}, '-lm');
 $hash{DIR} = [];

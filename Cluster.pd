@@ -2111,28 +2111,39 @@ Passing weights to Spearman and Kendall link methods wastes space.
 ##---------------------------------------------------------------------
 =pod
 
-=head1 AUTHOR / MAINTAINER
+=head1 AUTHOR
 
-Bryan Jurish E<lt>moocow@cpan.orgE<gt>
+Bryan Jurish E<lt>moocow@cpan.orgE<gt> wrote and maintains the PDL::Cluster distribution.
 
-=head2 Copyright Policy
+Michiel de Hoon wrote the underlying C clustering library for cDNA microarray data.
 
-PDL wrappers copyright (C) Bryan Jurish 2005-2018.
-All rights reserved.  There is no warranty.  You may modify
-and/or redistribute this software under the same terms as Perl itself.
+=head1 COPYRIGHT
 
-PDL::Cluster is a set of wrappers for the C Clustering library for cDNA microarray data.
+PDL::Cluster is a set of wrappers around the C Clustering library for cDNA microarray data.
 
- The C clustering library for cDNA microarray data.
- Copyright (C) 2002-2005 Michiel Jan Laurens de Hoon.
+=over 4
 
- This library was written at the Laboratory of DNA Information Analysis,
- Human Genome Center, Institute of Medical Science, University of Tokyo,
- 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan.
- Contact: michiel.dehoon 'AT' riken.jp
+=item *
 
-See the files F<cluster.c> and F<cluster.h> in the PDL::Cluster distribution
+The C clustering library for cDNA microarray data.
+Copyright (C) 2002-2005 Michiel Jan Laurens de Hoon.
+
+This library was written at the Laboratory of DNA Information Analysis,
+Human Genome Center, Institute of Medical Science, University of Tokyo,
+4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan.
+Contact: michiel.dehoon 'AT' riken.jp
+
+See the files F<REAMDE.cluster>, F<cluster.c> and F<cluster.h> in the PDL::Cluster distribution
 for details.
+
+=item *
+
+PDL::Cluster wrappers copyright (C) Bryan Jurish 2005-2018. All rights reserved.
+This package is free software, and entirely without warranty.
+You may redistribute it and/or modify it under the same terms
+as Perl itself.
+
+=back
 
 =head1 SEE ALSO
 

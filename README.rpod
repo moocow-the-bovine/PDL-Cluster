@@ -1,0 +1,92 @@
+=pod
+
+README for PDL::Cluster
+
+=head1 ABSTRACT
+
+PDL::Cluster - PDL wrappers for the C clustering library by Michiel de Hoon
+
+=head1 REQUIREMENTS
+
+=over 4
+
+=item * PDL
+
+Tested version 2.017
+
+=back
+
+=head1 DESCRIPTION
+
+PDL::Cluster provides PDL wrappers for the
+open source C clustering library by Michiel de Hoon.
+
+=head1 BUILDING
+
+Build this module as you would any perl module, by doing something
+akin to the following:
+
+ gzip -dc distname-XX.YY.tar.gz | tar -xof -
+ cd distname-XX.YY/
+ perl Makefile.PL
+ make
+ make test                                     # optional
+ make install
+
+See L<perlmodinstall>(1) for details.
+
+=head1 ACKNOWLEDGEMENTS
+
+=over 4
+
+=item *
+
+Perl by Larry Wall
+
+=item *
+
+PDL by Karl Glazebrook, Tuomas J. Lukka, Christian Soeller, and others.
+
+=item *
+
+C clustering library for cDNA microarray data
+copyright (C) 2002-2005 Michiel Jan Laurens de Hoon.
+
+=back
+
+
+=head1 AUTHOR
+
+Bryan Jurish E<lt>moocow@cpan.orgE<gt> wrote and maintains the PDL::Cluster distribution.
+
+Michiel de Hoon wrote the underlying C clustering library for cDNA microarray data.
+
+=head1 COPYRIGHT
+
+PDL::Cluster is a set of wrappers around the C Clustering library for cDNA microarray data.
+
+=over 4
+
+=item *
+
+The C clustering library for cDNA microarray data.
+Copyright (C) 2002-2005 Michiel Jan Laurens de Hoon.
+
+This library was written at the Laboratory of DNA Information Analysis,
+Human Genome Center, Institute of Medical Science, University of Tokyo,
+4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan.
+Contact: michiel.dehoon 'AT' riken.jp
+
+See the files F<README.cluster>, F<cluster.c>, and F<cluster.h> in the PDL::Cluster distribution
+for details.
+
+=item *
+
+PDL::Cluster wrappers (c) 2005-2018, Bryan Jurish.  All rights reserved.
+This package is free software, and entirely without warranty.
+You may redistribute it and/or modify it under the same terms
+as Perl itself.
+
+=back
+
+=cut

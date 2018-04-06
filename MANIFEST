@@ -1,6 +1,8 @@
 MANIFEST
-MANIFEST.SKIP
+README.txt
+README.cluster
 Makefile.PL
+pdlmaker.plm
 Cluster.pd
 Cluster.xs
 Cluster.c
