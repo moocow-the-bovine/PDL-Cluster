@@ -1,0 +1,19 @@
+MANIFEST
+MANIFEST.SKIP
+Makefile.PL
+Cluster.pd
+Cluster.xs
+Cluster.c
+Cluster.pm
+cluster.c
+cluster.h
+t/00_basic.t
+t/01_utils.t
+t/020_clusterdistance.t
+t/021_distancematrix.t
+t/030_kcluster.t
+t/031_kmedoids.t
+t/04_treecluster.t
+t/05_somcluster.t
+t/10_rowdistances.t
+META.yml                                 Module meta-data (added by MakeMaker)
