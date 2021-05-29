@@ -1,0 +1,8 @@
+v1.54.002 2021-05-29 moocow
+	* removed PDL::PP-generated files from MANIFEST
+	* renamed "cluster.[ch]" to "ccluster.*" to avoid filename clashes on case-insensitive filesystems (suggested by Ed J)
+	* added META_MERGE section to Makefile.PL: point to github repo
+	* added README.md (via pod2markdown) for github klickibunti
+
+v1.54.001 2018-04-06  moocow
+	* first CPAN release
