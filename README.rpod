@@ -12,7 +12,7 @@ PDL::Cluster - PDL wrappers for the C clustering library by Michiel de Hoon
 
 =item * PDL
 
-Tested version 2.017
+Tested versions 2.017, 2.019
 
 =back
 
@@ -77,12 +77,12 @@ Human Genome Center, Institute of Medical Science, University of Tokyo,
 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan.
 Contact: michiel.dehoon 'AT' riken.jp
 
-See the files F<README.cluster>, F<cluster.c>, and F<cluster.h> in the PDL::Cluster distribution
+See the files F<README.cluster>, F<ccluster.c>, and F<ccluster.h> in the PDL::Cluster distribution
 for details.
 
 =item *
 
-PDL::Cluster wrappers (c) 2005-2018, Bryan Jurish.  All rights reserved.
+PDL::Cluster wrappers (c) 2005-2021, Bryan Jurish.  All rights reserved.
 This package is free software, and entirely without warranty.
 You may redistribute it and/or modify it under the same terms
 as Perl itself.
