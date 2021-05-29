@@ -32,7 +32,7 @@
 #include <float.h>
 #include <limits.h>
 #include <string.h>
-#include "cluster.h"
+#include "ccluster.h"
 #ifdef WINDOWS
 #  include <windows.h>
 #endif
