@@ -4,7 +4,7 @@
 ## Header Administrivia
 ##======================================================================
 
-our $VERSION = '1.54.002';
+our $VERSION = '1.54.003';
 pp_setversion("'$VERSION'");
 
 use PDL::Bad; ##-- for $PDL::Bad::Status

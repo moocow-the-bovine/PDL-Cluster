@@ -1,3 +1,6 @@
+v1.54.003 2024-12-29 mohawk2
+	* PR #1 from mohawk2: Pass in right type to kcluster [o] Par $clusterids when testing
+
 v1.54.002 2021-05-29 moocow
 	* removed PDL::PP-generated files from MANIFEST
 	* renamed "cluster.[ch]" to "ccluster.*" to avoid filename clashes on case-insensitive filesystems (suggested by Ed J)
