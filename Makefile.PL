@@ -39,8 +39,7 @@ $hash{META_MERGE} = {
 WriteMakefile(%hash);
 
 sub MY::postamble {
-  pdlpp_postamble($package)
-  .qq(
+  return q(
 
 ##-- readme
 readme: README.txt
