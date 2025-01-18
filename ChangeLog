@@ -1,3 +1,9 @@
+v1.54.004 2025-01-18 moocow
+	* fix doubled pdlpp_postamble reported by mohawk2 at https://github.com/moocow-the-bovine/PDL-CCS/issues/16#issuecomment-2565817876
+	* PR #2 from mohawk2/no-copybadstatus
+	  - bump PDL requirement to 2.081
+  	  - replace unnecessary CopyBadStatusCode
+
 v1.54.003 2024-12-29 mohawk2
 	* PR #1 from mohawk2: Pass in right type to kcluster [o] Par $clusterids when testing
 
